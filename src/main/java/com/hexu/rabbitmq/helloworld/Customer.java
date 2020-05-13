@@ -21,7 +21,9 @@ public class Customer {
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
 
                 try {
+
                     Thread.sleep(200000000);
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
