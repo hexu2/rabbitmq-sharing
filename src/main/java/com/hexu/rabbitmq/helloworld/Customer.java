@@ -22,6 +22,7 @@ public class Customer {
 
                 try {
 
+                    System.out.println("hehe");
                     Thread.sleep(200000000);
 
                 } catch (InterruptedException e) {
