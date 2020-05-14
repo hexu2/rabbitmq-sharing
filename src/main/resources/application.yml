@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: rabbitmq-springboot
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: ebank
+    password: test123
+    virtual-host: /ebank
+
