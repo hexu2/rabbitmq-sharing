@@ -33,5 +33,7 @@ public class TopicConsumer {
 
         System.out.println("receive2 message = [" + message + "]");
 
+
+
     }
 }
